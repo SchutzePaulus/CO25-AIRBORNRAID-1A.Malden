@@ -5,18 +5,49 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=1025;
+	class ItemIDProvider
+	{
+		nextID=17;
+	};
+	class LayerIndexProvider
+	{
+		nextID=4;
+	};
 	class Camera
 	{
-		pos[]={5058.9497,591.29425,1300.0609};
-		dir[]={0.15595916,-0.30782136,0.93863028};
-		up[]={0.050460018,0.95142961,0.30369887};
-		aside[]={0.98652828,3.6262645e-007,-0.16391651};
+		pos[]={4378.1572,169.28593,2726.8164};
+		dir[]={0,-0.70710695,0.70710671};
+		up[]={0,0.70710665,0.70710689};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
+addons[]=
+{
+	"A3_Characters_F",
+	"A3_Modules_F"
+};
 class AddonsMetaData
 {
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
 };
 randomSeed=8760381;
 class ScenarioData
@@ -46,5 +77,289 @@ class Mission
 		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=6;
+		class Item0
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4290.9844,114.5298,2683.186};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1;
+					type="C_man_p_beggar_F";
+					atlOffset=-7.6293945e-006;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+			atlOffset=-7.6293945e-006;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4391.7124,121.89576,2791.9744};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=3;
+					type="C_man_p_beggar_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2;
+		};
+		class Item2
+		{
+			dataType="Layer";
+			name="DynAI Layer";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={4382.2754,102.27905,2491.188};
+						angles[]={6.1716504,0,6.2208652};
+					};
+					name="dzn_dynai_core";
+					id=4;
+					type="Logic";
+				};
+				class Item1
+				{
+					dataType="Layer";
+					name="main zone";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={4432.6875,105.57472,2607.8828};
+								angles[]={6.2368193,0,6.1819329};
+							};
+							name="main";
+							id=6;
+							type="Logic";
+						};
+						class Item1
+						{
+							dataType="Trigger";
+							position[]={4395.3447,151.7912,2785.2585};
+							class Attributes
+							{
+								sizeA=44.150635;
+								sizeB=39.482544;
+							};
+							id=7;
+							type="EmptyDetectorAreaR250";
+							atlOffset=29.803192;
+						};
+					};
+					id=8;
+					atlOffset=13.321983;
+				};
+				class Item2
+				{
+					dataType="Layer";
+					name="patrols zone";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={4295.4541,110.18806,2606.9497};
+								angles[]={6.221663,0,0.06152248};
+							};
+							name="patrols";
+							id=9;
+							type="Logic";
+						};
+						class Item1
+						{
+							dataType="Trigger";
+							position[]={4409.3481,121.48103,2805.7976};
+							class Attributes
+							{
+								sizeA=250;
+								sizeB=250;
+							};
+							id=10;
+							type="EmptyDetectorAreaR250";
+						};
+					};
+					id=11;
+					atlOffset=-2.1871338;
+				};
+			};
+			id=5;
+			atlOffset=1.8048248;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4392.9438,121.77034,2767.0183};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=13;
+					type="O_Soldier_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=12;
+		};
+		class Item4
+		{
+			dataType="Layer";
+			name="dzn_Gear Layer";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={4385.7012,121.54729,2761.5901};
+						angles[]={6.2113123,0,0.0039968039};
+					};
+					init="this setVariable ['dzn_gear', 'kit_ins_'];";
+					id=14;
+					type="Logic";
+					atlOffset=7.6293945e-006;
+				};
+			};
+			id=15;
+			atlOffset=7.6293945e-006;
+		};
+		class Item5
+		{
+			dataType="Trigger";
+			position[]={4378.6958,121.84489,2783.825};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{ts_tasks = 1;}";
+				activationType="NOT PRESENT";
+				activationBy="EAST";
+			};
+			id=16;
+			type="EmptyDetectorAreaR50";
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=5;
+		};
+		class Links
+		{
+			items=5;
+			class Item0
+			{
+				linkID=0;
+				item0=4;
+				item1=6;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=7;
+				item1=6;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item2
+			{
+				linkID=2;
+				item0=4;
+				item1=9;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item3
+			{
+				linkID=3;
+				item0=10;
+				item1=9;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item4
+			{
+				linkID=4;
+				item0=13;
+				item1=14;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
 	};
 };

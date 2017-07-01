@@ -3,26 +3,49 @@
 // MAIN BASE
 
 [
-    "Zone", /* Zone Name */
-    "EAST",true, /* Side, is Active */ [],[],
+    "main" /* Zone Name */
+    ,"EAST",true, /* Side, is Active */ [],[]
     /* Groups: */
-    [
+    ,[
         [
-            3, /* Groups quantity */
+            2, /* Groups quantity */
             /* Units */
             [
-                ["O_Soldier_F", [], ""]
-                ,["O_Soldier_F", [], ""]
+                ["O_Soldier_F", [], "kit_ins_random"]
+                ,["O_Soldier_F", [], "kit_ins_random"]
+                ,["O_Soldier_F", [], "kit_ins_random"]
+                ,["O_Soldier_F", [], "kit_ins_random"]
             ]
         ]
         ,[
-            3, /* Groups quantity */
+            1, /* Groups quantity */
             /* Units */
             [
-                ["O_Soldier_F", [], ""]
+                ["O_Soldier_F", ["indoors"], "kit_ins_random"]
+                ,["O_Soldier_F", ["indoors"], "kit_ins_random"]
+                ,["O_Soldier_F", ["indoors"], "kit_ins_random"]
+                ,["O_Soldier_F", ["indoors"], "kit_ins_random"]
             ]
         ]
-    ],
+    ]
     /* Behavior: Speed, Behavior, Combat mode, Formation */
-    ["LIMITED","SAFE","YELLOW","WEDGE"]
+    ,["LIMITED","SAFE","YELLOW","WEDGE"]
+]
+
+,[
+    "patrol" /* Zone Name */
+    ,"EAST",true, /* Side, is Active */ [],[]
+    /* Groups: */
+    ,[
+        [
+            4, /* Groups quantity */
+            /* Units */
+            [
+                ["O_Soldier_F", [], "kit_ins_random"]
+                ,["O_Soldier_F", [], "kit_ins_random"]
+            ]
+        ]
+    ]
+    /* Behavior: Speed, Behavior, Combat mode, Formation */
+    ,["LIMITED","SAFE","YELLOW","WEDGE"]
 ]

@@ -49,3 +49,33 @@
 #define UNIFORM_ITEMS		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]
 #define UNIFORM_ITEMS_L		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
 // ****************
+
+
+// enemy kits
+
+kit_ins_random = [
+	"kit_ins_r"
+	,"kit_ins_ar"
+];
+
+kit_INS_r = [
+	["<EQUIPEMENT >>  ","usm_bdu_w","CUP_V_RUS_Smersh_1","","H_Bandanna_camo",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_akm","rhs_30Rnd_762x39mm",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",9],["CUP_HandGrenade_RGD5",1]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_INS_ar = [
+	["<EQUIPEMENT >>  ","usm_bdu_w","CUP_V_RUS_Smersh_1","","H_Bandanna_camo",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m240B","rhsusf_50Rnd_762x51",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",4]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
