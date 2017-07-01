@@ -11,35 +11,41 @@
 BRIEFING
 
 TOPIC("I. Обстановка:")
-"Описание ситуации"
+"Отряд специального назначения ВС Мексики проводит рейд на базу наркокартеля. <br /> "
 END
 
 TOPIC("А. Враждебные силы:")
-"Описание вражеских сил"
+"До 2 взводов НВФ картеля "
 END
 
 TOPIC("Б. Дружественные силы:")
-"Описание дружественных сил"
+"X1 Взвод Fuerzas Especiales del Alto Mando"
 END
 
 TOPIC("II. Задание:")
-"Описание задач"
+"1. Взять штурмом лагерь картеля <br />"
 END
 
 TOPIC("III. Выполнение:")
-"Описание указаний по выполнению"
+"По плану командира."
 END
 
 TOPIC("IV. Поддержка:")
-"Доступная поддержка"
+"2X HUMMV <br />2X Tatra T810"
 END
 
 TOPIC("V. Сигналы:")
-"Сигналы и радива"
+"PL NET 50<br />1'1 - SR CH 1<br />1'2 - SR CH 2<br />1'3 - SR CH 3"
 END
 
 TOPIC("VI. Замечания:")
-"Прочие замечания"
+"Powered by Tactical Shift Framework"
 END
+
+if ((serverCommandAvailable '#logout') || !(isMultiplayer) || isServer) then {
+TOPIC("VII. Замечания для GSO:")
+"-Миссия сделана на коленке "
+END
+};
 
 ADD_TOPICS
