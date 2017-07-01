@@ -56,9 +56,11 @@
 kit_ins_random = [
 	"kit_ins_r"
 	,"kit_ins_ar"
+	,"kit_ins_pl"
+	,"kit_ins_r1"	
 ];
 
-kit_INS_r = [
+kit_ins_r = [
 	["<EQUIPEMENT >>  ","usm_bdu_w","CUP_V_RUS_Smersh_1","","H_Bandanna_camo",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_akm","rhs_30Rnd_762x39mm",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -69,7 +71,7 @@ kit_INS_r = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
-kit_INS_ar = [
+kit_ins_ar = [
 	["<EQUIPEMENT >>  ","usm_bdu_w","CUP_V_RUS_Smersh_1","","H_Bandanna_camo",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_m240B","rhsusf_50Rnd_762x51",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -77,6 +79,28 @@ kit_INS_ar = [
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",4]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_ins_pl = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_Denim_T_BK","V_PlateCarrierIA2_dgtl","","H_Booniehat_oli",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m16a4_carryhandle_M203","30Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",10],["1Rnd_HE_Grenade_shell",6]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_ins_r1 = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_Denim_T_BK","V_PlateCarrierIA2_dgtl","","H_Booniehat_oli",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m16a4_carryhandle","30Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["1Rnd_HE_Grenade_shell",6],["PRIMARY MAG",10]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
@@ -109,8 +133,8 @@ kit_blue_ftl = [
 	["<PRIMARY WEAPON >>  ","HLC_Rifle_g3ka4_GL","hlc_20rnd_762x51_T_G3",["","","rhsusf_acc_ACOG",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["hlc_20rnd_762x51_b_G3",6],["PRIMARY MAG",5],["1Rnd_HE_Grenade_shell",4],["UGL_FlareRed_F",3],["1Rnd_SmokeBlue_Grenade_shell",3],["1Rnd_SmokeYellow_Grenade_shell",3]]],
 	["<BACKPACK ITEMS >> ",[["rhs_mag_m67",4],["SmokeShellYellow",2],["SmokeShellRed",2],["SmokeShellBlue",2],["SmokeShell",4]]]
 ];
@@ -131,8 +155,8 @@ kit_blue_pl = [
 	["<PRIMARY WEAPON >>  ","hlc_rifle_g3a3v","hlc_20rnd_762x51_T_G3",["","","HLC_Optic_ZFSG1",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["hlc_20rnd_762x51_b_G3",5],["PRIMARY MAG",6],["SmokeShellBlue",2],["SmokeShellRed",2],["SmokeShellYellow",2],["SmokeShell",2],["rhs_mag_m67",2],["HANDGUN MAG",1]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
@@ -142,8 +166,8 @@ kit_blue_sl = [
 	["<PRIMARY WEAPON >>  ","hlc_rifle_g3a3v","hlc_20rnd_762x51_T_G3",["","","HLC_Optic_ZFSG1",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["hlc_20rnd_762x51_b_G3",5],["PRIMARY MAG",6],["SmokeShellBlue",2],["SmokeShellRed",2],["SmokeShellYellow",2],["SmokeShell",2],["rhs_mag_m67",2],["HANDGUN MAG",1]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
