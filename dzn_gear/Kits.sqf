@@ -79,3 +79,16 @@ kit_INS_ar = [
 	["<VEST ITEMS >> ",[["PRIMARY MAG",4]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
+
+// frendly forces
+
+kit_Blue_r = [
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_rgr","usm_vest_rba_lbe_gr","tf_anprc155","usm_bdu_8point_wdl",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m16a4","30Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",9],["CUP_HandGrenade_M67",4],["SmokeShellRed",2]]],
+	["<BACKPACK ITEMS >> ",[]]
+];

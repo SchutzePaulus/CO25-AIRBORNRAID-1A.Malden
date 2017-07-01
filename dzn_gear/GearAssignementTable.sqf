@@ -19,7 +19,7 @@ A "Platoon Leader"			TO "kit_sec_pl"	 KIT
 , A "BLUE - FTL"				TO "kit_sec_ftl"	 KIT
 , A "Automatic Rifleman"		TO "kit_sec_ar"	 KIT
 , A "Grenadier"				TO "kit_sec_gr"	 KIT
-, A "Rifleman"				TO "kit_sec_r"	 KIT
+, A "Rifleman"				TO "kit_blue_r"	 KIT
 
 
 /*
