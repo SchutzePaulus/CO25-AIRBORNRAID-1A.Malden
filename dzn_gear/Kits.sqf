@@ -82,13 +82,78 @@ kit_INS_ar = [
 
 // frendly forces
 
-kit_Blue_r = [
-	["<EQUIPEMENT >>  ","rhs_uniform_g3_rgr","usm_vest_rba_lbe_gr","tf_anprc155","usm_bdu_8point_wdl",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m16a4","30Rnd_556x45_Stanag",["","","",""]],
+kit_blue_r = [
+	["<EQUIPEMENT >>  ","U_I_CombatUniform","usm_vest_rba_lbe_rm","","rhsusf_ach_helmet_M81",""],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_g3ka4","hlc_20rnd_762x51_b_G3",["","","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["PRIMARY MAG",9],["CUP_HandGrenade_M67",4],["SmokeShellRed",2]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",11],["hlc_20rnd_762x51_T_G3",1],["rhs_mag_m67",4],["SmokeShell",2]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
+
+kit_blue_gr = [
+	["<EQUIPEMENT >>  ","U_I_CombatUniform","usm_vest_rba_lbe_rm","","rhsusf_ach_helmet_M81",""],
+	["<PRIMARY WEAPON >>  ","HLC_Rifle_g3ka4_GL","hlc_20rnd_762x51_b_G3",["","","rhsusf_acc_compm4",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",10],["1Rnd_HE_Grenade_shell",10],["rhs_mag_m67",2],["SmokeShell",3]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_blue_ftl = [
+	["<EQUIPEMENT >>  ","U_I_CombatUniform","usm_vest_rba_lbe_rm","rhsusf_falconii","rhsusf_ach_helmet_M81",""],
+	["<PRIMARY WEAPON >>  ","HLC_Rifle_g3ka4_GL","hlc_20rnd_762x51_T_G3",["","","rhsusf_acc_ACOG",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["hlc_20rnd_762x51_b_G3",6],["PRIMARY MAG",5],["1Rnd_HE_Grenade_shell",4],["UGL_FlareRed_F",3],["1Rnd_SmokeBlue_Grenade_shell",3],["1Rnd_SmokeYellow_Grenade_shell",3]]],
+	["<BACKPACK ITEMS >> ",[["rhs_mag_m67",4],["SmokeShellYellow",2],["SmokeShellRed",2],["SmokeShellBlue",2],["SmokeShell",4]]]
+];
+
+kit_blue_ar = [
+	["<EQUIPEMENT >>  ","U_I_CombatUniform","usm_vest_rba_lbv_mg","rhsusf_falconii","rhsusf_ach_helmet_M81",""],
+	["<PRIMARY WEAPON >>  ","hlc_lmg_MG3KWS_b","hlc_100Rnd_762x51_B_MG3",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",3],["hlc_50Rnd_762x51_T_MG3",2]]],
+	["<BACKPACK ITEMS >> ",[["rhs_mag_m67",2],["SmokeShell",4],["hlc_50Rnd_762x51_B_MG3",2]]]
+];
+
+kit_blue_pl = [
+	["<EQUIPEMENT >>  ","U_I_CombatUniform","usm_vest_rba_lbe_rmp","tf_rt1523g_rhs","rhsusf_ach_helmet_M81",""],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_g3a3v","hlc_20rnd_762x51_T_G3",["","","HLC_Optic_ZFSG1",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["hlc_20rnd_762x51_b_G3",5],["PRIMARY MAG",6],["SmokeShellBlue",2],["SmokeShellRed",2],["SmokeShellYellow",2],["SmokeShell",2],["rhs_mag_m67",2],["HANDGUN MAG",1]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_blue_sl = [
+	["<EQUIPEMENT >>  ","U_I_CombatUniform","usm_vest_rba_lbe_rmp","tf_rt1523g_rhs","rhsusf_ach_helmet_M81",""],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_g3a3v","hlc_20rnd_762x51_T_G3",["","","HLC_Optic_ZFSG1",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["hlc_20rnd_762x51_b_G3",5],["PRIMARY MAG",6],["SmokeShellBlue",2],["SmokeShellRed",2],["SmokeShellYellow",2],["SmokeShell",2],["rhs_mag_m67",2],["HANDGUN MAG",1]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_NewCargoKitName = [
+	[],
+	[["hlc_20rnd_762x51_T_G3",10],["hlc_20rnd_762x51_b_G3",30],["hlc_50Rnd_762x51_B_MG3",10],["rhs_mag_M441_HE",10]],
+	[["ACE_quikclot",10],["ACE_elasticBandage",10],["ACE_fieldDressing",10]],
+	[]
+];
+
+
+
