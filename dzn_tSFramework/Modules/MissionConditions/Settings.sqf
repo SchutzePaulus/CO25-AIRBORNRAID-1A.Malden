@@ -48,5 +48,5 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", "ts_tasks > 0", "All objectives done" ];
+MissionCondition1 = [ "WIN", "KAMAZ inArea baseTrg", "All objectives done" ];
 MissionCondition2 = [ "WIPED", { {alive _x} count (call BIS_fnc_listPlayers) < 1 }, "All dead", 30 ];

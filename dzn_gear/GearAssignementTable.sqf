@@ -17,3 +17,6 @@ A "Squad Leader"				TO "kit_blue_sl" KIT
 , A "Platoon Leader "				TO "kit_blue_sl" KIT
 , A "Platoon Sergeant"			TO "kit_blue_sl" KIT
 , A "Alpha 1-6 Platoon Leader"		TO "kit_blue_sl" KIT
+, A "Alpha 1-1 Squad Leader"			TO "kit_blue_sl" KIT
+, A "Alpha 1-2 Squad Leader"			TO "kit_blue_sl" KIT
+, A "Alpha 1-3 Squad Leader"			TO "kit_blue_sl" KIT
