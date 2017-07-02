@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=69;
+		nextID=82;
 	};
 	class Camera
 	{
-		pos[]={5052.5757,1325.8835,2480.615};
-		dir[]={-0.10064453,-0.95401567,0.28236544};
-		up[]={-0.32031274,0.29967639,0.89866114};
-		aside[]={0.94195431,2.7008355e-008,0.33574408};
+		pos[]={4613.6973,114.04709,2541.1118};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -148,6 +148,7 @@ randomSeed=8760381;
 class ScenarioData
 {
 	author="Schutze_Paulus";
+	overviewText="Взвод быстрого реагирования штурмует УР. ";
 	overViewPicture="overview.jpg";
 	overViewPictureLocked="overview.jpg";
 	loadScreen="overview.jpg";
@@ -168,6 +169,25 @@ class CustomAttributes
 	{
 		name="Multiplayer";
 		class Attribute0
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -214,25 +234,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -436,7 +437,7 @@ class Mission
 							};
 							id=472;
 							type="B_Soldier_F";
-							atlOffset=-9.5367432e-007;
+							atlOffset=-1.9073486e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -613,6 +614,7 @@ class Mission
 							};
 							id=477;
 							type="B_Soldier_F";
+							atlOffset=-9.5367432e-007;
 						};
 						class Item8
 						{
@@ -2755,6 +2757,7 @@ class Mission
 					};
 					id=513;
 					type="Land_HBarrier_5_F";
+					atlOffset=-7.6293945e-006;
 				};
 				class Item76
 				{
@@ -2840,6 +2843,7 @@ class Mission
 					};
 					id=518;
 					type="Land_HBarrier_5_F";
+					atlOffset=7.6293945e-006;
 				};
 				class Item81
 				{
